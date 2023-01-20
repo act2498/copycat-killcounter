@@ -1,0 +1,11 @@
+{
+	"name":"killcounter",
+	"author":"act2498",
+	"hooks": 
+	[
+		{
+			"hook_id": "lib/managers/playermanager",
+			"script_path": "mod.lua"
+		}
+	]
+}
