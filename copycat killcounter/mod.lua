@@ -1,7 +1,7 @@
 --set up someting
 local mp = ModPath
 local op = mp..'a.ogg'
-if blt.xaudio and io.file_is_readable(ThisOGGPath) then
+if blt.xaudio and io.file_is_readable(op) then
 	blt.xaudio.setup()
 else
 	return
